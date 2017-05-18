@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:text="Registrations"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:hint="Enter Username"
+        android:gravity="center"
+        android:id="@+id/etusername"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Phoneno"
+        android:inputType="phone"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:hint="Enter Email"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etemail"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:hint="Enter Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:id="@+id/etpassword"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:hint="Confim Password"
+        android:gravity="center"
+        android:id="@+id/etcpassword"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="REgister"
+        android:textSize="20dp"
+        android:id="@+id/breg"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

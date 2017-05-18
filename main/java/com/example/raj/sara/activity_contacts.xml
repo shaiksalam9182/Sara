@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:text="Add Contactts"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/etnum1"
+        android:inputType="phone"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:hint="Enter Phone No 1"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/etnum2"
+        android:inputType="phone"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:hint="Enter Phone No 2"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/etnum3"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:hint="Enter Phone No 3"
+        android:inputType="phone"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/etnum4"
+        android:hint="Enter Phone No 4"
+        android:inputType="phone"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:id="@+id/etnum5"
+        android:inputType="phone"
+        android:hint="Enter Phone No 5"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Add to Your Account"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/btaddd"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+    </LinearLayout>
